@@ -1,0 +1,39 @@
+/* css reset  start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+/* css reset end */
+
+@font-face {
+	font-family: 'Nunito-Bold';
+	src:url('../fonts/Nunito-Bold.ttf') format('truetype')
+}
+.font-nunito{
+	font-family: "Nunito-Bold";
+}
+@font-face {
+	font-family: 'glyphicons-halflings-regular';
+	src: url('../fonts/glyphicons-halflings-regular.eot'); /* IE9+ */
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/glyphicons-halflings-regular.woff') format('woff'), /* chrome、firefox */
+		 url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+		 url('../fonts/glyphicons-halflings-regular.svg#fontname') format('svg'); /* iOS 4.1- */
+}
+.wrapper{
+	width: 970px;
+	margin: 0 auto;
+}
+
+
+
+
